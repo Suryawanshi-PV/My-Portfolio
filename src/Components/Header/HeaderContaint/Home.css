@@ -1,0 +1,165 @@
+.info-parent {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  height: 100%;
+  margin: 5% 1%;
+  justify-content: space-between;
+}
+.information {
+  max-width: 50%;
+  margin-left: 5%;
+  /* margin-top: 5%; */
+}
+.image {
+  max-width: 50%;
+  margin-right: 10%;
+}
+.information h3,
+h4 {
+  color: #4c4c4c;
+  max-width: 550px;
+}
+/* .Heading {
+  background-image: url("./cosmos.jpg");
+  height: 70%;
+  
+  background-size: cover;
+} */
+.Heading h1,
+p {
+  color: black;
+}
+.Heading h4 {
+  color: #45b6fe;
+}
+.Heading h2 {
+  color: #00072d;
+}
+#job-title {
+  overflow: hidden;
+  border-right: 2px solid; /* Blinking cursor effect */
+  white-space: nowrap;
+  margin: 0;
+  display: inline-block;
+  animation: typing 5s steps(30, end), blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.Heading div {
+  max-width: 550px;
+  /* margin: auto; */
+  padding-top: 5%;
+}
+.image {
+  background-image: url("./Pavankumar.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
+.information p {
+  -webkit-text-fill-color: black;
+  color: black;
+}
+
+.information {
+  flex: 1;
+  max-width: 60%;
+  padding-right: 20px; /* Adjust spacing between information and image */
+}
+
+.information h2 {
+  color: #007bff;
+  font-size: 2rem;
+}
+
+.information p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #495057;
+}
+
+/* .downloadButton {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s; 
+  } */
+  
+  .downloadButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  .Heading h3{
+    height: 30px;
+  }
+  .Heading {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+  .Heading h4, .Heading h2, .Heading h3, .Heading p {
+    margin: 0;
+    color: #333; /* Dark gray text color */
+  }
+  
+  .Heading h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #007BFF; /* Blue color for the name */
+  }
+  
+  .Heading h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  
+  .Heading p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  .downloadButton {
+    background-color: #c0c9d3; /* Blue background for the button */
+    color: black; /* White text color */
+    margin: 5%;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .downloadButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: white
+  }

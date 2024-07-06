@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  min-height: 100vh;
+} */
+.Header-Routs {
+  position: relative;
+}
+.Header-Routs h2 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.Header-Routs ul {
+display: flex;
+flex-direction: row;
+list-style-type: none;
+
+}
+.Header-Routs ul li {
+  position: relative;
+  left: 0;
+  color: #fce4ec;
+  /* Header-Routs-style: none; */
+  margin: 4px 0;
+  border-bottom: 2px solid #f50057;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-right: 5px !important;
+}
+.Header-Routs ul li:hover {
+    bottom: 2px;
+}
+.Header-Routs ul li span a {
+text-decoration: none;
+}
+.Header-Routs ul li span {
+  position: relative;
+  padding: 8px;
+  padding-left: 12px;
+  display: inline-block;
+  z-index: 1;
+  transition: 0.5s;
+}
+.Header-Routs ul li:hover span {
+  color: #111;
+}
+.Header-Routs ul li:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f50057;
+  transform: scaleY(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+.Header-Routs ul li:hover:before {
+  transform: scaleY(1);
+}
+
+.Header-Routs{
+  background-color: white;
+  display: flex;
+  padding: 1% 1%;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+}
+
