@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.b750151c.css",
-    "main.js": "/My-Portfolio/static/js/main.e4199e73.js",
+    "main.css": "/My-Portfolio/static/css/main.f905b9d0.css",
+    "main.js": "/My-Portfolio/static/js/main.512d0624.js",
     "static/js/787.d4aba7ab.chunk.js": "/My-Portfolio/static/js/787.d4aba7ab.chunk.js",
     "static/media/Pavankumar.jpg": "/My-Portfolio/static/media/Pavankumar.593cc7b5a2a8722e2721.jpg",
+    "static/media/geospatial-data-GIS-platform-header.jpg": "/My-Portfolio/static/media/geospatial-data-GIS-platform-header.f0990bbe0700f3f446c6.jpg",
     "index.html": "/My-Portfolio/index.html",
-    "main.b750151c.css.map": "/My-Portfolio/static/css/main.b750151c.css.map",
-    "main.e4199e73.js.map": "/My-Portfolio/static/js/main.e4199e73.js.map",
+    "main.f905b9d0.css.map": "/My-Portfolio/static/css/main.f905b9d0.css.map",
+    "main.512d0624.js.map": "/My-Portfolio/static/js/main.512d0624.js.map",
     "787.d4aba7ab.chunk.js.map": "/My-Portfolio/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b750151c.css",
-    "static/js/main.e4199e73.js"
+    "static/css/main.f905b9d0.css",
+    "static/js/main.512d0624.js"
   ]
 }
