@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.30f8159c.css",
-    "main.js": "/My-Portfolio/static/js/main.71de131f.js",
+    "main.js": "/My-Portfolio/static/js/main.2f2993e9.js",
     "static/js/787.d4aba7ab.chunk.js": "/My-Portfolio/static/js/787.d4aba7ab.chunk.js",
     "static/media/Pavankumar.jpg": "/My-Portfolio/static/media/Pavankumar.593cc7b5a2a8722e2721.jpg",
+    "static/media/Crime_Dashboard.png": "/My-Portfolio/static/media/Crime_Dashboard.2e99b3a16f3f8604856c.png",
     "static/media/geospatial-data-GIS-platform-header.jpg": "/My-Portfolio/static/media/geospatial-data-GIS-platform-header.f0990bbe0700f3f446c6.jpg",
     "static/media/Montserrat-Regular.ttf": "/My-Portfolio/static/media/Montserrat-Regular.e20d5327f1a05620c084.ttf",
     "index.html": "/My-Portfolio/index.html",
     "main.30f8159c.css.map": "/My-Portfolio/static/css/main.30f8159c.css.map",
-    "main.71de131f.js.map": "/My-Portfolio/static/js/main.71de131f.js.map",
+    "main.2f2993e9.js.map": "/My-Portfolio/static/js/main.2f2993e9.js.map",
     "787.d4aba7ab.chunk.js.map": "/My-Portfolio/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30f8159c.css",
-    "static/js/main.71de131f.js"
+    "static/js/main.2f2993e9.js"
   ]
 }
